@@ -26,7 +26,7 @@ const question = [{
         'que' : 'How many methods to write CSS?',
         'a' : '1',
         'b' : '3',
-        'c' : '3',
+        'c' : '4',
         'd' : 'none of the above',
         'correct' : 'b'
         }
