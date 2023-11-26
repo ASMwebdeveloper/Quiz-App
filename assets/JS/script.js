@@ -21,7 +21,15 @@ const question = [{
     'c' : 'Cascading Style Sheet',
     'd' : 'Control Source Style',
     'correct' : 'c'
-    }
+    },
+    {
+        'que' : 'How many methods to write CSS?',
+        'a' : '1',
+        'b' : '3',
+        'c' : '3',
+        'd' : 'none of the above',
+        'correct' : 'b'
+        }
 ]
 
 let index = 0;
@@ -87,6 +95,9 @@ const reset = () => {
         return emoji;
     }else if(wrong == 3){
         let emoji = '😌';   
+        return emoji;
+    }else if(wrong == 4){
+        let emoji = '🥶';   
         return emoji;
     }
     }
