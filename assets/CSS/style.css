@@ -73,10 +73,17 @@ input + label{
 
 @media screen and  (max-width:580px) {
     body{
+<<<<<<< HEAD
         background-color: red;
     }
     .box{
         width: 90% !important;
+=======
+        /* background-color: red; */
+    }
+    .box{
+        width: 90%;
+>>>>>>> 5d2680e169c9b1061af763d2587ce3c9ace4b8c9
         padding: 10px;
     }
     .box h3{
@@ -89,4 +96,8 @@ input + label{
         font-size: 0.8rem;
         padding: 10px 10px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5d2680e169c9b1061af763d2587ce3c9ace4b8c9
