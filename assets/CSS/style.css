@@ -68,3 +68,25 @@ input + label{
     margin-top: 10px;
     color: rgb(100, 100, 100);
 }
+
+/* ============>  For mobile <============= */
+
+@media screen and  (max-width:580px) {
+    body{
+        /* background-color: red; */
+    }
+    .box{
+        width: 90%;
+        padding: 10px;
+    }
+    .box h3{
+        font-size: 1rem;
+    }
+    input + label{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 0.8rem;
+        padding: 10px 10px;
+    }
+}
